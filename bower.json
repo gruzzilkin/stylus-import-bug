@@ -1,0 +1,20 @@
+{
+	"name": "stylus-import-bug",
+	"version": "0.0.1",
+	"authors": [
+		"Nikolay Sadovnikov <gruzzilkin@gmail.com>"
+	],
+	"private": true,
+	"ignore": [
+		"**/.*",
+		"node_modules",
+		"bower_components",
+		"test",
+		"tests"
+	],
+	"dependencies": {
+		"fotorama": "latest",
+		"normalize-css": "latest",
+		"select2": "latest"
+	}
+}

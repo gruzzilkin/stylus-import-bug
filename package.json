@@ -1,0 +1,23 @@
+{
+	"author": "Nick Sadovnikov",
+	"name": "stylus-import-bug.git",
+	"version": "0.0.1",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/gruzzilkin/stylus-import-bug.git"
+	},
+	"engines": {
+		"node": ">=0.10"
+	},
+	"devDependencies": {
+		"stylus": "0.48.1",
+		"bower": "latest",
+		"bower-npm-install": "latest"
+	},
+	"scripts": {
+		"start": "./node_modules/stylus/bin/stylus -m --include-css --resolve-url test.styl > test.css",
+		"postinstall": "bower-npm-install --non-interactive",
+		"deps": "bower-npm-install --non-interactive"
+	},
+	"private": false
+}
